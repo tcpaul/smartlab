@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "firebase": "^4.6.2",
+    "firebase-tools": "^3.15.3",
     "material-ui": "^1.0.0-beta.21",
     "material-ui-icons": "^1.0.0-beta.17",
     "react": "^16.1.1",
@@ -11,6 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "firebase deploy",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
